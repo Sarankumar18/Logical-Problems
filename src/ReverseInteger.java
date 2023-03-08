@@ -1,7 +1,7 @@
 
 class Solution {
     public int reverse(int x) {
-        if( x >= 1534236469  || x <=  -1563847412 )
+        if( x >= Integer.MAX_VALUE  || x <=  Integer.MIN_VALUE )
                 return 0;
         long rev =0;
         while( x != 0){
